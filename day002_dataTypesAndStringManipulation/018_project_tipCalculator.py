@@ -1,0 +1,5 @@
+totalBill = float(input("Total bill?: "))
+tipPercentage = float(input("Tip percentage?: "))
+toPay = totalBill + totalBill * (tipPercentage / 100)
+numberOfPeople = int(input("Number of people?: "))
+print(f"Pay {round(toPay / numberOfPeople, 2)}$ each")
